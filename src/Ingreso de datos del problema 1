@@ -1,0 +1,25 @@
+Analisis del problema 1, ingreso y salida de datos
+
+Inicialmente debemos preguntarle al usuario como desea ser llamado, si como señor o señora, para asi generar un saludo personalizado con su nombre y apellido que debidamente ingrese el usuario.
+
+Posterior el usuario debe elegir entre origen y destino respectivamente, donde tiene como opciones Medellin, Cartagena, Bogota, y debemos calcular el precio de cada vuelo con respecto a la distancia entre cada ciudad.
+Y posterior debemos de preguntarle al usuario la fecha y dia de la semana que viajara, ya que de esto tambien varian los precios.
+
+Debemos calcular el precio del vuelo, basandonos en la distancia, dia de la semana, incluyendo tarifas diferentes dependiendo del dia de la semana y distancia.
+
+Ahora debemos preguntarle al usuario sobre su preferencia en el asiento, si lo desea en la ventana, en el pasillo o le es indiferente, y adicional elegir un numero random entre el 1 y 29.
+
+Para que despues le imprima el numero de el asiento con su respectivo puesto dentro de la aeronave.
+
+Y finalmente se realiza un resumen y conclusion, donde muestra todos los detalles de la reserva incluyendo el titulo, nombre y apellido, el origen y destino, el precio y el asiento del vuelo.
+
+
+
+
+Variables que ingresan y salen
+
+Ingresan: 
+Titulo, nombre, apellido, origen,destino, dia de la semana, dia del mes, preferencia de asiento.
+
+Salen:
+Precio del vuelo, numero de asiento.
