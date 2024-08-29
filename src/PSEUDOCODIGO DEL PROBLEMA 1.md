@@ -55,3 +55,27 @@ Sino
     Precio= 156.900
     Sino 
     Precio=213.000
+ Finsi
+
+ Imprimir "Prefiere ubicarse en el asiento del pasillo, junto a la ventana, o sin preferencia?":
+
+ Si 
+ pref= "pasillo" entonces
+ Asiento = C
+ Sino 
+  Si 
+  pref= "ventana"   entonces 
+ Asiento = A
+   Sino 
+   Asiento= B
+   Finsi
+AsientoNum= Asiento random de 1- 29
+   Imprimir "Su asiento asignado es {AsientoNum}+{Asiento}
+
+  Imprimir "{titulo}+{nombre}+{apellido}+{origen}+{destino}+{Precio}+{AsientoNum}+{Asiento}
+
+  Fin
+   
+ 
+  
+    
