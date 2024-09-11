@@ -31,6 +31,25 @@ else:
 
 #Calcular la distancia entre origen y destino
 
+if origen == "MEDELLIN" and destino == "BOGOTA" : 
+distancia = 240 
+
+elif origen == "MEDELLIN" and destino == "CARTAGENA" : 
+distancia = 461
+
+elif origen == "BOGOTA" and destino == "CARTAGENA" : 
+distancia = 657 
+
+elif origen == "CARTAGENA" and destino == "MEDELLIN" : 
+distancia = 461
+
+elif origen == "CARTAGENA" and destino == "BOGOTA" : 
+distancia = 461
+
+
+
+
+
 
 if __name__ == "__main__":
     main()
