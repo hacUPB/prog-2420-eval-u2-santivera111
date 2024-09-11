@@ -20,7 +20,7 @@ while origen == destino:
 
   #fecha 
 
-  dia_semana = input("Escriba el dia de la semana que viajara: (por ejemplo virrnes):")  
+  dia_semana = input("Escriba el dia de la semana que viajara: (por ejemplo viernes):")  
 dia_mes= init(input("Escriba el día del mes que viajará (entre 1 y 31): ")
 
 if 1<=dia_mes<= 31:
@@ -45,6 +45,25 @@ distancia = 461
 
 elif origen == "CARTAGENA" and destino == "BOGOTA" : 
 distancia = 461
+
+else: 
+ print("No disponible")
+
+ #Precio boleto
+
+if distancia < 400: 
+  if dia_semana in ["lunes"," martes"," miercoles"," jueves"]:
+    precio= 79900
+     else:
+      precio=119900
+else:
+   if dia_semana in ["lunes"," martes"," miercoles"," jueves"]:
+    precio= 156900
+     else:
+      precio=213000
+
+
+#Preguntar por asiento
 
 
 
