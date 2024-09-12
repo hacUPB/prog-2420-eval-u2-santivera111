@@ -64,18 +64,25 @@ else:
 
 
 #Preguntar por asiento
-prefer= input" Prefiere asiento del pasillo, junto a la ventana o sin preferencia ")
 
-print("Elida su asiento: A (ventana), B (medio), C(sin preferencia )")
+print("Elija su asiento: A (ventana), B (medio), C(sin preferencia )")
 
 asiento= input("porfavor ingrese A, B o C para elegir su asiento: ").upper()
 
 if asiento == "A":
  print ("Enhorabuena, has elegido el asiento junto a la ventana.") 
-elif asiento == B
+elif asiento == "B"
  print ("Enhorabuena, has elegido el asiento en el medio.") 
- elif asiento == C
+ elif asiento == "C"
   print ("Enhorabuena, has elegido el asiento en el medio.") 
+else:
+ print("Opcion no valida, por defecto se te asignara el asiento A (VENTANA)")
+ asiento = "A"
+
+ asiento_numero= random.randit(1.29)
+ print(f"El numero de su asiento es{asiento_numero}")
+
+ print(f"{titulo}{nombre}{apellido} Origen:{origen} Destino:{destino}, en la fecha:{dia_semana}[dia_mes} con un precio de {precio} y su asiento sera: {asiento}{asiento-num}")
   
  
 
