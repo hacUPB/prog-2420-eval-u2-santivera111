@@ -58,16 +58,16 @@ def main():
             precio = 213000
 
     # Preguntar por asiento
-    print("Elija su asiento: A (ventana), B (medio), C (sin preferencia)")
+    print("Elija su asiento: A (ventana), B (pasillo), C (sin preferencia)")
 
     asiento = input("Por favor ingrese A, B o C para elegir su asiento: ").upper()
 
     if asiento == "A":
         print("Enhorabuena, has elegido el asiento junto a la ventana.")
     elif asiento == "B":
-        print("Enhorabuena, has elegido el asiento en el medio.")
+        print("Enhorabuena, has elegido el asiento en el pasillo.")
     elif asiento == "C":
-        print("Enhorabuena, has elegido el asiento sin preferencia.")
+        print("Enhorabuena, has elegido sin preferencia, asi que tu asiento sera en el pasillo.")
     else:
         print("Opción no válida, por defecto se te asignará el asiento A (VENTANA)")
         asiento = "A"
