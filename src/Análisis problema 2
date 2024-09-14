@@ -1,0 +1,32 @@
+Analisis del problema 2 
+
+
+El problema trata sobre simular el comportamiento de un satelite en la orbita de la tierra, 
+mientras pierde altitud por la resistencia de la atmosfera, lo cual es el arrastre. A medida 
+que el satelite desciende, la fuerza de arrastre aumenta, lo que provoca una perdida de altitud mas rapida.
+
+El objetivo de este codigo que crearemos es simular un proceso en el cual el satelite alcance 
+una orbita estable baja o reingrese en la atmosfera terrestre.
+Inicialemte solicitaremos al usuario que ingrese la altitud inicial del satelite en kilometros para
+posterior nos ingrese el coeficiente de arrastre inicial y finalmetne que ingrese la altitud minima de seguirdad tambien en kilometros.
+
+Para esto realizaremos un bucle donde se calcule la perdida de altura en cada orbita del satelite.
+Los pasos clave del proceso de simulacion incluye: 
+
+Calculo de la perdida de altitud: debido al arrastre, posterior realizar una resta de la perdida 
+de altitud con la altitud actual, aumentar ligeramente el coeficiente de arrastre ya que simularara
+un aumento de la resistencia a menor altitud, y finalizaremos deteniendo el bucle si el satelite
+alcanza la altitud minima segura, o tambien si el satelite logra estabilizarse, ya que estas dos 
+seran el objetivo principal del codigo.
+
+
+DATOS DE ENTRADA Y SALIDA
+
+ENTRADA:
+Altitud incial en kilometros, coeficiente de arrastre, altitud minima de seguridad.
+
+
+SALIDA:
+
+Altitud final y numero de orbitas completadas, y re ingreso a la orbita en caso de hacerlo y nuevamnete numero de orbitas
+
